@@ -173,7 +173,7 @@ dialogsDraftFgOver: dialogsDraftFg; // chat list draft label with mouse over
 dialogsSendingIconFgOver: dialogsSendingIconFg; // chat list sending message icon (clock) with mouse over
 dialogsSentIconFgOver: dialogsSentIconFg; // chat list sent message tick / double tick icon with mouse over
 
-dialogsBgActive: bg1; // chat list background for current (active) chat
+dialogsBgActive: bg0_hard; // chat list background for current (active) chat
 dialogsDateFgActive: dialogsDateFg; // chat list date text for current (active) chat
 dialogsNameFgActive: dialogsNameFg; // chat list name text for current (active) chat
 dialogsTextFgActive: dialogsTextFg; // chat list message text for current (active) chat
@@ -187,7 +187,7 @@ dialogsSendingIconFgActive: dialogsSendingIconFg; // chat list sending message i
 dialogsSentIconFgActive: dialogsSentIconFg; // chat list sent message tick / double tick icon for current (active) chat
 dialogsOnlineBadgeFgActive: dialogsOnlineBadgeFg; // chat list online status for current (active) chat
 
-boxBg: bg0_hard; // box background
+boxBg: bg0; // box background
 boxTextFg: windowFg; // box text
 boxTextFgGood: bright_green; // accepted box text (like when choosing username that is not occupied)
 boxTextFgError: bright_red; // rejecting box text (like when choosing username that is occupied)
@@ -196,13 +196,14 @@ boxSearchBg: filterInputInactiveBg; // box search field background (like in cont
 boxTitleAdditionalFg: fg4; // box title additional text (like in create group box when you see chosen members count)
 boxTitleCloseFg: smallCloseIconFg; // settings close icon and box search cancel icon (like in contacts box)
 boxTitleCloseFgOver: smallCloseIconFgOver; // settings close icon and box search cancel icon (like in contacts box) with mouse over
+boxDividerBg: windowBg; // gray cylinder in boxes and layers
 
 msgInBg: bg0_soft; // inbox message background
 msgInDateFg: fg4; // inbox message time text
 msgInShadow: none; // inbox message shadow (below the bubble)
 msgInMonoFg: fg4; // inbox message monospace text (like a message sent with `test` text)
 
-msgOutBg: bg2; // outbox message background
+msgOutBg: bg1; // outbox message background
 msgOutDateFg: fg4; // outbox message time text
 msgOutShadow: none; // outbox message shadow (below the bubble)
 msgOutMonoFg: fg4; // outbox message monospace text
@@ -278,6 +279,8 @@ historyCallArrowInFg: callArrowFg; // received phone call arrow
 historyCallArrowMissedInFg: callArrowMissedFg; // missed phone call arrow
 historyCallArrowOutFg: historyTextInFg; // outgoing phone call arrow
 
+historyComposeAreaBg: windowBg; // new message text box
+
 historyPeer1NameFg: bright_red; // red group member name
 historyPeer1UserpicBg: material_red; // red userpic background
 historyPeer2NameFg: bright_green; // green group member name
@@ -296,7 +299,7 @@ historyPeer8NameFg: bright_orange; // orange group member name
 historyPeer8UserpicBg: material_orange; // orange userpic background
 historyPeerUserpicFg: fg0; // default userpic initials
 
-historyPinnedBg: msgInBg; // pinned message area background
+historyPinnedBg: windowBg; // pinned message area background
 
 historyScrollBarBg: scrollBarBg; // scroll bar current rectangle, the bar itself in the chat view (adjusted)
 historyScrollBarBgOver: scrollBarBgOver; // scroll bar current rectangle with mouse over it in the chat view (adjusted)
@@ -392,7 +395,7 @@ titleButtonCloseBgActiveOver: titleButtonCloseBgOver; // custom window title clo
 titleButtonCloseFgActiveOver: titleButtonCloseFgOver; // custom window title close button icon with mouse over when window is active (Windows only)
 
 sideBarTextFg: fg4; // filters side bar text
-sideBarBg: bg0_hard; // filters side bar background
+sideBarBg: bg0; // filters side bar background
 sideBarBgRipple: windowBgRipple; // filters side bar ripple effect
 sideBarIconFg: menuIconFg; // filters side bar icon
 sideBarBadgeBg: bright_red; // filters side bar badge background
