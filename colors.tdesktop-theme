@@ -187,7 +187,7 @@ dialogsSendingIconFgActive: dialogsSendingIconFg; // chat list sending message i
 dialogsSentIconFgActive: dialogsSentIconFg; // chat list sent message tick / double tick icon for current (active) chat
 dialogsOnlineBadgeFgActive: dialogsOnlineBadgeFg; // chat list online status for current (active) chat
 
-boxBg: windowBg; // box background
+boxBg: bg0_hard; // box background
 boxTextFg: windowFg; // box text
 boxTextFgGood: bright_green; // accepted box text (like when choosing username that is not occupied)
 boxTextFgError: bright_red; // rejecting box text (like when choosing username that is occupied)
