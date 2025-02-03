@@ -75,7 +75,7 @@ windowFgActive: fg; // fallback for text on active areas
 windowFgOver: fg; // fallback for text with mouse over
 windowBoldFg: windowFg; // fallback for bold text
 windowBoldFgOver: windowBoldFg; // fallback for bold text with mouse over
-windowShadowFg: none; // fallback for shadow
+windowShadowFg: bg0_hard; // fallback for shadow
 windowShadowFgFallback: none; // fallback for shadow without opacity
 windowSubTextFg: fg4; // fallback for additional text
 windowSubTextFgOver: windowSubTextFg; // fallback for additional text with mouse over
@@ -199,12 +199,12 @@ boxTitleCloseFgOver: smallCloseIconFgOver; // settings close icon and box search
 
 msgInBg: bg0_soft; // inbox message background
 msgInDateFg: fg4; // inbox message time text
-msgInShadow: windowShadowFg; // inbox message shadow (below the bubble)
+msgInShadow: none; // inbox message shadow (below the bubble)
 msgInMonoFg: fg4; // inbox message monospace text (like a message sent with `test` text)
 
 msgOutBg: bg2; // outbox message background
 msgOutDateFg: fg4; // outbox message time text
-msgOutShadow: windowShadowFg; // outbox message shadow (below the bubble)
+msgOutShadow: none; // outbox message shadow (below the bubble)
 msgOutMonoFg: fg4; // outbox message monospace text
 
 msgServiceFg: fg1; // service message text (like date dividers or service message about the group title being changed)
@@ -243,12 +243,12 @@ msgDateImgBgOver: msgDateImgBg; // media message download icon circle background
 
 msgInBgSelected: bg4; // inbox selected message background (and background of selected text in those messages)
 msgInDateFgSelected: windowFg; // inbox selected message time text
-msgInShadowSelected: windowShadowFg; // inbox selected message shadow (below the bubble)
+msgInShadowSelected: none; // inbox selected message shadow (below the bubble)
 msgInMonoFgSelected: msgInMonoFg; // inbox message monospace text in a selected text or message
 
 msgOutBgSelected: bg4; // outbox selected message background (and background of selected text in those messages)
 msgOutDateFgSelected: windowFg; // outbox selected message time text
-msgOutShadowSelected: windowShadowFg; // outbox selected message shadow (below the bubble)
+msgOutShadowSelected: none; // outbox selected message shadow (below the bubble)
 msgOutMonoFgSelected: msgOutMonoFg; // outbox message monospace text in a selected text or message
 
 msgSelectOverlay: overlay; // overlay which is filling the media parts of selected messages (like in selected photo message)
@@ -370,7 +370,7 @@ overviewPhotoSelectOverlay: overlay; // shared photos / videos / links fill for 
 
 titleBg: bg0; // window title background when window is inactive
 titleBgActive: titleBg; // window title background when window is active
-titleShadow: windowShadowFg;
+titleShadow: none;
 titleButtonBg: none; // custom window title minimize/maximize/restore button background when window is inactive (Windows only)
 titleButtonFg: none; // custom window title minimize/maximize/restore button icon when window is inactive (Windows only)
 titleButtonCloseBg: none; // custom window title close button background when window is inactive (Windows only)
