@@ -1,3 +1,6 @@
+// main bg #282828
+// secondary bg #1d2021;
+
 bg0_hard: #1d2021;
 bg0:      #282828;
 bg0_soft: #32302f;
@@ -63,7 +66,7 @@ material_orange: #e78a4e;
 none: #00000000;
 
 windowActiveTextFg: bright_orange; // fallback for active text like online status
-windowBg: bg0_hard; // fallback for background
+windowBg: bg0; // fallback for background
 windowBgActive: windowActiveTextFg; // fallback for filled active areas
 windowBgOver: bg0_soft; // fallback for background with mouse over
 windowBgRipple: none; // fallback for ripple effect
